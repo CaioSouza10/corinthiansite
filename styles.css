@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Major+Mono+Display&family=Permanent+Marker&family=Sedgwick+Ave+Display&family=Signika+Negative:wght@700&display=swap');
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #000000;
+    --fonte-principal: 'Specimen';
+ }
+
+ body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal); 
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.8rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+   
+        background-size: 29em;
+        align-items: center;
+        text-align: center;
+     }
+
+
+.container__imagem {
+    width: 50%;
+}
+
+
+.container__botao {
+    font-size: 1rem;
+}
+
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 29%;
+    
+}
+
+.secundario {
+    display: flex;
+    align-items: center;
+    font-size: 4.3rem;
+}
+
+.terceira__imagem {
+    width: 60%;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+@media {
+    .principal {
+      width: auto;
+    }
+
+    .container__imagem {
+        width: auto;
+    }
+
+    .secundario__imagem {
+        width: auto;
+    }
+
+    .terceira__imagem {
+       width: auto;
+    }
+
+   .secundario {
+    width: auto;
+   }
+}
